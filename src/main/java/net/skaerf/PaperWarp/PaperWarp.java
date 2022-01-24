@@ -30,7 +30,7 @@ public class PaperWarp extends JavaPlugin implements Listener {
                 if (event.getAction().equals(Action.RIGHT_CLICK_AIR) || event.getAction().equals(Action.RIGHT_CLICK_BLOCK)) {
                     if (player.getEquipment().getItemInMainHand().getItemMeta().getDisplayName().equalsIgnoreCase(ChatColor.translateAlternateColorCodes('&', this.getConfig().getString("paper-name")))) {
                         String lore = player.getEquipment().getItemInMainHand().getItemMeta().getLore().get(0).split(" ")[2];
-                        Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "pex user "+event.getPlayer().getName()+" add essentials.warps."+lore);
+                        Bukkit.dispatchCommand(Bukkit.getConsoleSender(), "pex user "+event.getPlayer().getName()+" add essentials.warp."+lore);
                         player.getInventory().setItemInMainHand(null);
                         player.sendMessage(ChatColor.GREEN+"You have been given permission to access warp "+lore+"!");
                         event.setCancelled(true);
