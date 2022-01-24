@@ -1,0 +1,8 @@
+name: PaperWarp
+main: net.skaerf.PaperWarp.PaperWarp
+version: 1.0
+api-version: 1.17
+depend: [Essentials]
+commands:
+  paperwarp:
+    usage: /paperwarp
