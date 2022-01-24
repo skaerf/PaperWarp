@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="PaperWarp.main:jar">
-    <output-path>$USER_HOME$/Documents/1.17.1 testing/plugins</output-path>
-    <root id="archive" name="PaperWarp.jar">
+    <output-path>$USER_HOME$/Documents/1.17.1 test server/plugins</output-path>
+    <root id="archive" name="PaperWarp.main.jar">
       <element id="module-output" name="PaperWarp.main" />
       <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/config.yml" />
       <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/plugin.yml" />
